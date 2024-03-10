@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(BoostAsio)
+project(CppAsio)
 
 find_package(Boost REQUIRED)
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(Poco)
+project(CppPoco)
 
 find_package(Poco REQUIRED Net Util JSON Foundation)
 
