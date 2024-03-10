@@ -2,3 +2,4 @@
 .vscode/
 out/
 build/
+vcpkg_installed/
