@@ -21,3 +21,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}_thread PRIVATE Poco::Foundation)
 # date time
 add_executable(${CMAKE_PROJECT_NAME}_date_time date_time.cpp)
 target_link_libraries(${CMAKE_PROJECT_NAME}_date_time PRIVATE Poco::Foundation)
+
+# uuid
+add_executable(${CMAKE_PROJECT_NAME}_uuid uuid.cpp)
+target_link_libraries(${CMAKE_PROJECT_NAME}_uuid PRIVATE Poco::Foundation)
