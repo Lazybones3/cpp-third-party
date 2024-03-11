@@ -3,4 +3,5 @@ project(CppThirdParty)
 
 add_subdirectory(boost/asio)
 add_subdirectory(boost/thread)
+add_subdirectory(boost/serialization)
 #add_subdirectory(poco)
